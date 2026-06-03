@@ -23,6 +23,13 @@ routes:
     strip_path: false
     preserve_host: false
 
+  - name: catalogos-route
+    service: easypark-backend
+    paths:
+      - /catalogos
+    strip_path: false
+    preserve_host: false
+
   - name: actuator-route
     service: easypark-backend
     paths:
